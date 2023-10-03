@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.paerntes{
+    width: 600px;
+    background-color: #eee;
+    margin: 40px auto;
+    padding: 20px;
+}
+.paerntes input{
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+.paerntes input:focus{
+    outline: none;
+
+}
+.paerntes .buttens{
+    display: flex;
+    justify-content: space-between;
+
+}
+.paerntes .buttens span{
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.paerntes .resultes{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px dashed #eee;
+    text-align: center;
+}
+.paerntes .resultes span span{
+    font-weight: bold;
+    color: #009688;
+}
